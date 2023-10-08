@@ -1,0 +1,42 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(25%-1px);
+  margin-bottom: 1px;
+  background-color: #ddd;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+  .button:hover {
+    background-color: #aaa;
+  }
+}
+
+.button:active {
+  background-color: #aaa;
+}
+
+.button--is-lighter {
+  background-color: #eee;
+}
+
+.button--is-memory {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 2px;
+  margin-left: 20px;
+  background-color: #ccc;
+}
+
+.button--is-equal {
+  background-color: #6d9dc3;
+}
+
+@media (min-width: 1025px) {
+  .button--is-equal:hover {
+    background-color: #4599dd;
+  }
+}
