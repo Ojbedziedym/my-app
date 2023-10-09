@@ -8,7 +8,7 @@ export const MainKeyboard: React.FC = () => {
     return (
         <div className={style()}>
 
-        <Button content="%" onClick={()=> console.log("")} />
+        <Button content="%" onClick={()=> console.log("m")} />
         <Button content="CE" onClick={()=> console.log("")} />
         <Button content="C" onClick={()=> console.log("")} />
         <Button content="<=" onClick={()=> console.log("")} />
